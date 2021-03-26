@@ -1,8 +1,6 @@
-#heroImg {
+.wrapper {
   background-image: url(/assets/images/canada.jpg);
   background-size: cover;
   background-position: center;
-  padding-bottom: 33vh;
-  color: white;
 }
-/*# sourceMappingURL=hero.component.css.map */
+/*# sourceMappingURL=app.component.css.map */

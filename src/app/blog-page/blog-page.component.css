@@ -53,11 +53,11 @@ body {
 }
 
 /* BOXES */
-
 .box {
   background-color: #ffffff;
   padding: 10px 20px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 
@@ -131,6 +131,7 @@ div .box.tags ul li i {
   top: 1px;
   font-size: 14px;
 }
+
 .blog p img.pull-left {
   margin-right: 15px;
 }
@@ -140,3 +141,4 @@ div .box.tags ul li i {
   border: 3px solid #bbbbbb;
   padding: 5px;
 }
+/*# sourceMappingURL=blog-page.component.css.map */

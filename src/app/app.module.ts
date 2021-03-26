@@ -10,6 +10,7 @@ import { BlogPageComponent } from './blog-page/blog-page.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CartComponent } from './cart/cart.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ReviewPageComponent } from './review-page/review-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     BlogPageComponent,
     ProductDetailsComponent,
     CartComponent,
+    ReviewPageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule],
   providers: [],
