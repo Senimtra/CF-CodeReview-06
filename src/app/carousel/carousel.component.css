@@ -1,0 +1,16 @@
+#carousel {
+  height: 9.16rem;
+  background-color: #1d3557;
+  margin-bottom: 0.65rem;
+  overflow: hidden;
+}
+
+#carousel div {
+  height: 100%;
+}
+
+#carousel div img {
+  height: 100%;
+  border-radius: 0.3em;
+}
+/*# sourceMappingURL=carousel.component.css.map */

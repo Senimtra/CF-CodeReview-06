@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm navbar-dark">
+<nav class="navbar navbar-expand-sm navbar-dark mt-1 mb-2">
   <div class="container-fluid">
     <button
       class="navbar-toggler"
@@ -12,28 +12,48 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" routerLink="blog">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" routerLink="travels"
-            >Travels</a
+          <button
+            class="btn btn-sm nav-link active"
+            aria-current="page"
+            routerLink="/"
           >
+            Home
+          </button>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" routerLink="reviews"
-            >Reviews</a
+          <button
+            class="btn btn-sm nav-link"
+            aria-current="page"
+            routerLink="blog"
           >
+            Blog
+          </button>
+        </li>
+        <li class="nav-item">
+          <button
+            class="btn btn-sm nav-link"
+            aria-current="page"
+            routerLink="travels"
+          >
+            Travels
+          </button>
+        </li>
+        <li class="nav-item">
+          <button
+            class="btn btn-sm nav-link"
+            aria-current="page"
+            routerLink="reviews"
+          >
+            Reviews
+          </button>
         </li>
       </ul>
-      <button class="btn my-2 my-sm-0 mx-3" type="submit" routerLink="/cart">
-        Cart
-      </button>
-      <span class="btn">items: {{ itemCount }}</span>
+    </div>
+    <div class="navCart">
+      <a routerLink="/cart">Cart</a>
+      <span class="">items: {{ itemCount }}</span>
     </div>
   </div>
 </nav>
