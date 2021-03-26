@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,UAAU,CAAC,GAAG,CAAC;EACb,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,MAAM;EACrB,MAAM,EAAE,iBAAiB;EACzB,UAAU,EAAE,iBAAiB;CAC9B;;AAED,AAAA,KAAK,CAAC;EACJ,UAAU,EAAE,iBAAiB;CAC9B",
-    "sources": [
-        "travel-page.component.scss"
-    ],
-    "names": [],
-    "file": "travel-page.component.css"
-}
