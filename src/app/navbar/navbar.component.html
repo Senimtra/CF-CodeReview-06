@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+<nav class="navbar navbar-expand-sm navbar-dark">
   <div class="container-fluid">
     <button
       class="navbar-toggler"
@@ -30,16 +30,10 @@
           >
         </li>
       </ul>
-      <button
-        class="btn btn-danger my-2 my-sm-0 mx-3"
-        type="submit"
-        routerLink="/cart"
-      >
+      <button class="btn my-2 my-sm-0 mx-3" type="submit" routerLink="/cart">
         Cart
       </button>
-      <span class="btn btn-outline-danger disabled"
-        >items: {{ itemCount }}</span
-      >
+      <span class="btn">items: {{ itemCount }}</span>
     </div>
   </div>
 </nav>
