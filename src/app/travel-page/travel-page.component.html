@@ -1,1 +1,9 @@
-<p>travel-page works!</p>
+<h1>Our guided adventures...</h1>
+
+<div *ngFor="let trail of travels" class="card">
+  <h4>
+    {{ trail.adventure }}
+  </h4>
+
+  <p *ngIf="trail.description">{{ trail.description }}</p>
+</div>

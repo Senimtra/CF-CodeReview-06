@@ -7,6 +7,7 @@ export const travels = [
     duration: 7,
     price: 799,
     difficulty: 'easy',
+    image: '',
   },
   {
     adventure: 'Killarney Park',
