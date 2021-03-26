@@ -24,18 +24,17 @@
             >Travels</a
           >
         </li>
-        <li>
-          <button
-            class="btn btn-outline-success my-2 my-sm-0"
-            type="submit"
-            routerLink="/cart"
-          >
-            Checkout
-          </button>
-        </li>
       </ul>
-      <i class="fas fa-shopping-cart"></i
-      ><span class="badge bg-success">{{ itemCount }}</span>
+      <button
+        class="btn btn-danger my-2 my-sm-0 mx-3"
+        type="submit"
+        routerLink="/cart"
+      >
+        Cart
+      </button>
+      <span class="btn btn-outline-danger disabled"
+        >items: {{ itemCount }}</span
+      >
     </div>
   </div>
 </nav>

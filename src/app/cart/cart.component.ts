@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CartService } from '../cart.service';
 import { FormBuilder } from '@angular/forms';
+import { removeSummaryDuplicates } from '@angular/compiler';
 @Component({
   selector: 'app-cart',
   templateUrl: './cart.component.html',
@@ -9,6 +10,7 @@ import { FormBuilder } from '@angular/forms';
 export class CartComponent implements OnInit {
   items;
   checkoutForm;
+  sumPrice;
 
   constructor(
     private cartService: CartService,
@@ -22,6 +24,12 @@ export class CartComponent implements OnInit {
 
   ngOnInit() {
     this.items = this.cartService.getItems();
+    this.sumPrice = 0;
+    for (let i in this.items) {
+      // console.log(this.items[i].price);
+      this.sumPrice = this.sumPrice + this.items[i].price;
+      console.log(this.sumPrice);
+    }
   }
 
   onSubmit(customerData) {
