@@ -7,8 +7,16 @@
       <td>{{ item.price | currency }}</td>
     </tr>
     <tr>
-      <td>Total Sum:</td>
+      <td>Total:</td>
       <td>{{ sumPrice | currency }}</td>
+    </tr>
+    <tr>
+      <td>Discount:</td>
+      <td>{{ discountValue | currency }} &nbsp;&nbsp;({{ discountRate }} %)</td>
+    </tr>
+    <tr>
+      <td>End total:</td>
+      <td>{{ endTotal | currency }}</td>
     </tr>
   </table>
 </div>
