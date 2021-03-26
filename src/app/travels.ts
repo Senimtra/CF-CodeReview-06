@@ -7,7 +7,7 @@ export const travels = [
     duration: 7,
     price: 799,
     difficulty: 'easy',
-    image: '',
+    image: 'assets/images/01westCoastTrail.jpg',
   },
   {
     adventure: 'Killarney Park',
@@ -17,6 +17,7 @@ export const travels = [
     duration: 3,
     price: 299,
     difficulty: 'easy',
+    image: 'assets/images/02killarneyPark.jpg',
   },
   {
     adventure: 'Plain of Six Glaciers Trail',
@@ -26,6 +27,7 @@ export const travels = [
     duration: 10,
     price: 999,
     difficulty: 'moderate',
+    image: 'assets/images/03plainOfSixGlaciers.jpg',
   },
   {
     adventure: 'Cape Breton National Highlands Park',
@@ -35,6 +37,7 @@ export const travels = [
     duration: 5,
     price: 599,
     difficulty: 'easy',
+    image: 'assets/images/04capeBretonPark.jpg',
   },
   {
     adventure: 'Sunshine to Mt. Assiniboine',
@@ -44,6 +47,7 @@ export const travels = [
     duration: 7,
     price: 899,
     difficulty: 'challenging',
+    image: 'assets/images/05sunshineMtAssiniboine.jpg',
   },
   {
     adventure: 'Bruce Trail',
@@ -54,6 +58,7 @@ export const travels = [
     duration: 4,
     price: 399,
     difficulty: 'moderate',
+    image: 'assets/images/06bruceTrail.jpg',
   },
   {
     adventure: 'Fundy Trail',
@@ -64,6 +69,7 @@ export const travels = [
     duration: 10,
     price: 1099,
     difficulty: 'moderate',
+    image: 'assets/images/07fundyTrail.jpg',
   },
   {
     adventure: 'East Coast Trail',
@@ -74,6 +80,7 @@ export const travels = [
     duration: 4,
     price: 499,
     difficulty: 'easy',
+    image: 'assets/images/08eastCoastTrail.jpg',
   },
   {
     adventure: 'Gaspesié National Park',
@@ -83,6 +90,7 @@ export const travels = [
     duration: 2,
     price: 199,
     difficulty: 'moderate',
+    image: 'assets/images/09gaspesiePark.jpg',
   },
   {
     adventure: 'Canol Heritage Trail',
@@ -93,5 +101,6 @@ export const travels = [
     duration: 20,
     price: 2199,
     difficulty: 'challenging',
+    image: 'assets/images/10canolHeritageTrail.jpg',
   },
 ];
