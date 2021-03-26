@@ -1,15 +1,21 @@
-<h2>Products</h2>
+<h2>Our guided adventures...</h2>
 
-<div *ngFor="let product of products; index as productId">
-  <!-- index will refer to the index of the element, productId is just a parameter name that you can change if you want, but
-
-you need to change it in the app.routing.module.ts -->
-
-  <h3>
-    <a routerLink="products/{{ productId }}">
-      {{ product.name }}
-    </a>
-  </h3>
-
-  <p *ngIf="product.description">Description: {{ product.description }}</p>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col" *ngFor="let product of products; index as productId">
+    <div class="card">
+      <img src="{{ product.image }}" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">{{ product.adventure }}</h5>
+        <p class="card-text">{{ product.description }}</p>
+      </div>
+      <div>
+        <a (click)="addToCart(product)" class="btn btn-primary">Buy</a>
+      </div>
+      <div>
+        <a routerLink="products/{{ productId }}" class="btn btn-primary"
+          >More</a
+        >
+      </div>
+    </div>
+  </div>
 </div>

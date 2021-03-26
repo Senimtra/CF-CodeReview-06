@@ -1,16 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-
-import { ActivatedRoute } from '@angular/router'; // package that have some methods and proberties that will help us to grap the value from the URL and use it with some buildin bethods
-
+import { ActivatedRoute } from '@angular/router';
 import { CartService } from '../cart.service';
-
 import { products } from '../products';
-
 @Component({
   selector: 'app-product-details',
-
   templateUrl: './product-details.component.html',
-
   styleUrls: ['./product-details.component.css'],
 })
 export class ProductDetailsComponent implements OnInit {
@@ -23,7 +17,6 @@ export class ProductDetailsComponent implements OnInit {
 
   addToCart(product) {
     window.alert('Your product has been added to the cart!');
-
     this.cartService.addToCart(product);
   }
 
