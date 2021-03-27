@@ -1,0 +1,24 @@
+.footbar {
+  background-color: #f1faee;
+  border-radius: 0.3rem;
+  box-shadow: 0px 1px 2px black;
+  color: white;
+  font-size: 150%;
+  font-family: "Libre Baskerville", serif;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black,
+    0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    img {
+      width: 3rem;
+      position: relative;
+      top: -0.6rem;
+    }
+}
+
+.footbar-bg {
+  background-color: #457b9d;
+  margin-top: 0.5rem;
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.01rem;
+  border-radius: 0.3rem;
+  box-shadow: 0px 2px 4px black;
+}

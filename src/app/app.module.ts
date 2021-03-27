@@ -12,6 +12,7 @@ import { CartComponent } from './cart/cart.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ReviewPageComponent } from './review-page/review-page.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { FootbarComponent } from './footbar/footbar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,7 @@ import { CarouselComponent } from './carousel/carousel.component';
     CartComponent,
     ReviewPageComponent,
     CarouselComponent,
+    FootbarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule],
   providers: [],

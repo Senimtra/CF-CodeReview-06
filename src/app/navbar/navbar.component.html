@@ -51,11 +51,14 @@
             </button>
           </li>
         </ul>
+        <div class="filler">filler</div>
       </div>
-      <div class="navCart">
-        <a routerLink="/cart">Cart</a>
-        <span class="">items: {{ itemCount }}</span>
-      </div>
+      <a routerLink="/cart"
+        ><div class="navCart">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="itemsNav"> {{ itemCount }}</span>
+        </div></a
+      >
     </div>
   </nav>
 </div>
