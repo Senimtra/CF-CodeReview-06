@@ -2,7 +2,7 @@
   background-image: url(/assets/images/backGroundDark.jpg);
   border-radius: 0.3rem;
   background-size: 60%;
-  background-position: center;
+  background-position: top;
   -webkit-box-shadow: 0px 2px 4px black;
           box-shadow: 0px 2px 4px black;
 }
@@ -12,7 +12,7 @@
 }
 
 .homePic img {
-  width: 100%;
+  width: 11rem;
   border-radius: 0.3rem;
   -webkit-box-shadow: 0px 2px 4px black;
           box-shadow: 0px 2px 4px black;
@@ -27,5 +27,7 @@
 
 .card-title {
   color: #e63946;
+  font-family: "Libre Baskerville", serif;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
 }
 /*# sourceMappingURL=home-page.component.css.map */

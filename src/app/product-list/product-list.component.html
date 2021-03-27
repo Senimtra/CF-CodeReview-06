@@ -1,23 +1,33 @@
-<h2>Our guided adventures...</h2>
-
-<div class="row row-cols-1 row-cols-md-2 g-4">
-  <div class="col" *ngFor="let product of products; index as productId">
-    <div class="card">
-      <img src="{{ product.image }}" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 class="card-title">{{ product.adventure }}</h5>
-        <p class="card-text">{{ product.province }}</p>
-        <p class="card-text">{{ product.description }}</p>
-        <p class="card-text">Start: {{ product.start }}</p>
-        <p class="card-text">Duration: {{ product.duration }} days</p>
-        <p class="card-text">Price: {{ product.price | currency }}</p>
-        <p class="card-text">Difficulty: {{ product.difficulty }}</p>
-      </div>
-      <div>
-        <a (click)="addToCart(product)" class="btn btn-primary">Buy</a>
-        <a routerLink="products/{{ productId }}" class="btn btn-primary"
-          >More</a
-        >
+<div class="homeBG p-4">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col" *ngFor="let product of products; index as productId">
+      <div class="card p-2">
+        <img src="{{ product.image }}" class="card-img-top" />
+        <div class="card-body">
+          <p class="card-title">{{ product.adventure }}</p>
+          <p class="province">Province: {{ product.province }}</p>
+          <p class="description">
+            <i>"{{ product.description }}"</i>
+          </p>
+          <p class="start">Start: {{ product.start }}</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              Duration: {{ product.duration }} days
+            </li>
+            <li class="list-group-item">
+              Price: {{ product.price | currency }}
+            </li>
+            <li class="list-group-item">
+              Difficulty: {{ product.difficulty }}
+            </li>
+          </ul>
+        </div>
+        <div class="btns">
+          <a routerLink="products/{{ productId }}" class="btn btn-sm"
+            >Details</a
+          >
+          <a (click)="addToCart(product)" class="btn btn-sm">Buy</a>
+        </div>
       </div>
     </div>
   </div>
