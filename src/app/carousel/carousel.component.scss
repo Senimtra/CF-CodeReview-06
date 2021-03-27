@@ -9,16 +9,44 @@
     img {
       height: 100%;
       border-radius: 0.3em;
-      // box-shadow: 0px 3px 4px black;
     }
   }
 }
 
+// ### Again trying to fix the carousel breakpoints. :(
+// ### But I read about an Angular-Bootstrap-Module
+// ### with an all responsive carousel that can be
+// ### installed. Will sure give this a try next time.
+
 @media screen and (max-width: 575px) {
+  #carousel {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #carousel {
+    height: 7.1rem;
+  }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #carousel {
+    height: 7.38rem;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #carousel {
+    height: 6.85rem;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  #carousel {
+    height: 7.22rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #carousel {
+    height: 7.42rem;
+  }
 }

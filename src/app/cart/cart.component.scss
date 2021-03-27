@@ -1,3 +1,5 @@
+// ### Background image style right here ###
+
 .homeBG {
   background-image: url(/assets/images/backGroundDark.jpg);
   border-radius: 0.3rem;
@@ -5,6 +7,8 @@
   background-position: top;
   box-shadow: 0px 2px 4px black;
 }
+
+// ### Card styling begins here ###
 
 .card {
   background-color: #f1faee;
@@ -26,6 +30,8 @@
     color: #e63946;
   }
 }
+
+// ### Table styling begins here ###
 
 .table {
   background-color: white;

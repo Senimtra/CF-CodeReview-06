@@ -1,3 +1,5 @@
+// ### products array ###
+
 export const products = [
   {
     adventure: 'West Coast Trail',

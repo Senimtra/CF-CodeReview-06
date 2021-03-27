@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CartService } from '../cart.service';
 import { FormBuilder } from '@angular/forms';
-import { removeSummaryDuplicates } from '@angular/compiler';
+
 @Component({
   selector: 'app-cart',
   templateUrl: './cart.component.html',
@@ -26,6 +26,8 @@ export class CartComponent implements OnInit {
       newsletter: '',
     });
   }
+
+  // ### Function to return discount rate and discount ###
 
   ngOnInit() {
     this.items = this.cartService.getItems();
