@@ -13,18 +13,12 @@
   box-shadow: 0px 2px 4px black;
 }
 
-.btn {
-  // background-color: #e63946;
-  box-shadow: 0px 2px 2px black;
-  color: #e63946;
-}
-
 .navCart {
   padding: 0.5rem;
-  background-color: #e63946;
+  background-color: #457b9d;
   border-radius: 0.3rem;
   box-shadow: 0px 2px 2px black;
-  color: black;
+  color: white;
   display: inline-block;
 }
 
@@ -34,7 +28,7 @@ a:link {
 
 .itemsNav {
   text-decoration: none;
-  font-weight: bold;
+  font-size: 1rem;
 }
 
 li .btn {

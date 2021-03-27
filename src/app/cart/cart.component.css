@@ -1,1 +1,58 @@
-/* No CSS *//*# sourceMappingURL=cart.component.css.map */
+.homeBG {
+  background-image: url(/assets/images/backGroundDark.jpg);
+  border-radius: 0.3rem;
+  background-size: 60%;
+  background-position: top;
+  -webkit-box-shadow: 0px 2px 4px black;
+          box-shadow: 0px 2px 4px black;
+}
+
+.card {
+  background-color: #f1faee;
+  border: 0.5rem solid #a8dadc;
+  -webkit-box-shadow: 0px 2px 4px black;
+          box-shadow: 0px 2px 4px black;
+}
+
+.card-title {
+  color: #e63946;
+  font-size: 2rem;
+  font-family: "Libre Baskerville", serif;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+
+.card-title img {
+  width: 3rem;
+  position: relative;
+  top: -0.4rem;
+}
+
+.table {
+  background-color: white;
+}
+
+.cardTable {
+  -webkit-box-shadow: 0px 1px 2px black;
+          box-shadow: 0px 1px 2px black;
+}
+
+.checkLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn {
+  background-color: #457b9d;
+  -webkit-box-shadow: 0px 2px 2px black;
+          box-shadow: 0px 2px 2px black;
+}
+
+input {
+  -webkit-box-shadow: 0px 0px 1px black;
+          box-shadow: 0px 0px 1px black;
+}
+/*# sourceMappingURL=cart.component.css.map */
