@@ -1,4 +1,50 @@
 .navbar {
-  background-color: #1d3557;
+  background-color: #f1faee;
+  border-radius: 0.3rem;
+  -webkit-box-shadow: 0px 1px 2px black;
+          box-shadow: 0px 1px 2px black;
+  color: #a8dadc;
+}
+
+.navbar-bg {
+  background-color: #457b9d;
+  padding-top: 0.01rem;
+  padding-bottom: 0.01rem;
+  border-radius: 0.3rem;
+  -webkit-box-shadow: 0px 2px 4px black;
+          box-shadow: 0px 2px 4px black;
+}
+
+.btn {
+  -webkit-box-shadow: 0px 2px 2px black;
+          box-shadow: 0px 2px 2px black;
+  color: #e63946;
+}
+
+.navCart {
+  padding: 0.5rem;
+  background-color: #e63946;
+  border-radius: 0.3rem;
+  -webkit-box-shadow: 0px 2px 2px black;
+          box-shadow: 0px 2px 2px black;
+  color: black;
+  display: inline-block;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.itemsNav {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li .btn {
+  color: #a8dadc;
+  background-color: #457b9d;
+  margin-right: 0.7rem;
+  -webkit-box-shadow: 0px 2px 2px black;
+          box-shadow: 0px 2px 2px black;
 }
 /*# sourceMappingURL=navbar.component.css.map */

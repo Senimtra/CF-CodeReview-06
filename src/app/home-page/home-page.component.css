@@ -1,6 +1,31 @@
 .homeBG {
-  background-image: url(/assets/images/backGround.jpg);
-  background-size: 205%;
+  background-image: url(/assets/images/backGroundDark.jpg);
+  border-radius: 0.3rem;
+  background-size: 60%;
   background-position: center;
+  -webkit-box-shadow: 0px 2px 4px black;
+          box-shadow: 0px 2px 4px black;
+}
+
+.homePic {
+  padding: 1rem;
+}
+
+.homePic img {
+  width: 100%;
+  border-radius: 0.3rem;
+  -webkit-box-shadow: 0px 2px 4px black;
+          box-shadow: 0px 2px 4px black;
+}
+
+.card {
+  background-color: #f1faee;
+  border: 0.5rem solid #a8dadc;
+  -webkit-box-shadow: 0px 2px 4px black;
+          box-shadow: 0px 2px 4px black;
+}
+
+.card-title {
+  color: #e63946;
 }
 /*# sourceMappingURL=home-page.component.css.map */
