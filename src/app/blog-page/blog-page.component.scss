@@ -1,142 +1,41 @@
-body {
-  margin-top: 20px;
+.homeBG {
+  background-image: url(/assets/images/backGroundDark.jpg);
+  border-radius: 0.3rem;
+  background-size: 60%;
+  background-position: top;
+  box-shadow: 0px 2px 4px black;
 }
 
-.content-item {
-  padding: 30px 0;
-  background-color: #ffffff;
+.blogPic {
+  display: flex;
+  img {
+    margin-right: 1rem;
+    width: 45%;
+    border-radius: 0.3rem;
+    box-shadow: 0px 2px 4px black;
+  }
 }
 
-.content-item.grey {
-  background-color: #f0f0f0;
-  padding: 50px 0;
-  height: 100%;
+.blog-detail li {
+  margin-right: 1.2rem;
 }
 
-.content-item h2 {
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 45px;
-  text-transform: uppercase;
-  margin: 20px 0;
+.card {
+  background-color: #f1faee;
+  border: 0.5rem solid #a8dadc;
+  box-shadow: 0px 2px 4px black;
 }
 
-.content-item h3 {
-  font-weight: 400;
-  font-size: 20px;
-  color: #555555;
-  margin: 10px 0 15px;
-  padding: 0;
-}
-
-.content-headline {
-  height: 1px;
-  text-align: center;
-  margin: 20px 0 70px;
-}
-
-.content-headline h2 {
-  background-color: #ffffff;
-  display: inline-block;
-  margin: -20px auto 0;
-  padding: 0 20px;
-}
-
-.grey .content-headline h2 {
-  background-color: #f0f0f0;
-}
-
-.content-headline h3 {
-  font-size: 14px;
-  color: #aaaaaa;
-  display: block;
-}
-
-/* BOXES */
-
-.box {
-  background-color: #ffffff;
-  padding: 10px 20px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-}
-
-.box h3 {
-  margin: 30px 0 5px;
-  font-weight: bold;
-}
-
-.box ul {
-  margin: 0;
-}
-
-.box ul li {
-  font-size: 13px;
-  border-bottom: 1px dashed #dddddd;
-  padding: 10px 0;
-  font-weight: 600;
-}
-
-.box ul li:last-child {
-  border-bottom: 0;
-}
-
-.box ul li i {
-  font-size: 18px;
-  margin-right: 20px;
-}
-
-.box.categories ul li i {
-  color: #bbbbbb;
-  position: relative;
-  top: 2px;
-  width: 20px;
-}
-
-.posts ul li a {
-  font-size: 11px;
-  line-height: 23px;
-}
-
-.posts ul li a:hover {
-  color: #333333;
-}
-
-.posts ul li div {
-  font-size: 13px;
-  color: #999999;
-  font-weight: bold;
-  text-align: right;
-  margin-top: 5px;
-}
-
-.box.posts ul li i {
-  color: #333333;
-  font-size: 14px;
-  margin-right: 10px;
-}
-
-.box.tags ul.blog-tags li {
-  border: 0;
+.card-title {
+  color: #e63946;
 }
 
 ul.blog-tags li {
-  padding: 7px 0;
+  padding-right: 1rem;
 }
 
-div ul.blog-tags li i,
-div .box.tags ul li i {
-  color: #ffffff;
-  position: relative;
-  top: 1px;
+div ul.blog-tags li i {
+  padding-right: 0.5rem;
+  color: #e63946;
   font-size: 14px;
-}
-.blog p img.pull-left {
-  margin-right: 15px;
-}
-
-.blog p img {
-  max-width: 300px;
-  border: 3px solid #bbbbbb;
-  padding: 5px;
 }
