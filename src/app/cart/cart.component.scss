@@ -13,7 +13,7 @@
 }
 
 .card-title {
-  color: #e63946;
+  color: white;
   font-size: 2rem;
   font-family: "Libre Baskerville", serif;
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
@@ -21,6 +21,9 @@
     width: 3rem;
     position: relative;
     top: -0.4rem;
+  }
+  .fas {
+    color: #e63946;
   }
 }
 

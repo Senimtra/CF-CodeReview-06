@@ -16,3 +16,16 @@
     width: 100%;
   }
 }
+
+.card-title {
+  font-size: 1.7rem;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  img {
+    width: 3rem;
+    position: relative;
+    top: -0.4rem;
+    box-shadow: none;
+  }
+}
